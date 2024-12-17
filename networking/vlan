@@ -1,0 +1,2 @@
+sudo nmcli connection add type vlan interfacename vlan100 dev eno1 id 100
+sudo nmcli connection up vlan100
